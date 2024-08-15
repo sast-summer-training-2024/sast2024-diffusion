@@ -18,7 +18,7 @@ def get_loss(model, x_0, t, device):
 
 if __name__ == "__main__":
     model = SimpleUnet()
-    T = 300
+    T = 1000
     BATCH_SIZE = 128
     epochs = 100
 
